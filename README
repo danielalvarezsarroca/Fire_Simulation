@@ -1,0 +1,19 @@
+# Simulador de propagació d'incendis
+
+Aquest projecte implementa un model de simulació de la propagació d’un incendi forestal mitjançant un autòmat cel·lular bidimensional. La propagació es veu afectada per diverses capes ambientals: humitat, vegetació i estat de l’incendi, i opcionalment també pel vent i la presència de llacs.
+
+## Estructura del projecte
+
+- `main.py` → Script principal que executa la simulació
+- `generador_dades.py` → Funcions per generar la humitat i la vegetació inicials
+- `lectura_idrisi.py` → Funcions per guardar i llegir fitxers en format IDRISI
+- `simulacio.py` → Lògica de propagació del foc i actualització de cel·les
+- `visualitzacio.py` → Visualització gràfica del mapa i l’estat de la simulació
+- `experiments_*.py` → Scripts per executar experiments parametritzats
+
+## Requisits
+
+Assegura’t de tenir instal·lada una versió de Python 3.7 o superior i les següents biblioteques:
+
+```bash
+pip install numpy matplotlib

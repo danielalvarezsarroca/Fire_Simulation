@@ -1,0 +1,21 @@
+file title  : Mapa de vegetació
+data type   : integer
+file type   : ascii
+columns     : 80
+rows        : 80
+ref.system  : plane
+ref.units   : m
+unit dist.  : 15
+min. X      : 0
+max. X      : 2
+min. Y      : 0
+max. Y      : 2
+pos 'n error: unknown
+resolution  : 30
+min. value  : 1
+max. value  : 10
+Value units : unspecified
+Value Error : unknown
+flag Value  : none
+flag def 'n : none
+legend cats : 0
